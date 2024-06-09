@@ -11,6 +11,16 @@ MainSection:NewButton("Infinity yield", "launches infinite yield", function()
 end)
 
 
-MainSection:NewButton("Good Blade ball script", "launches Good Blade ball scrip", function()
+MainSection:NewButton("Blade ball", "launches Good Blade ball scrip", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+end)
+
+
+MainSection:NewButton("Sirius Universal", "Universal", function()
+   loadstring(game:HttpGet('https://sirius.menu/script'))()
+end)
+
+
+MainSection:NewButton("QP HUB (key:QP)", "Universal", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
 end)
